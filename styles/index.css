@@ -57,4 +57,82 @@ nav ul{
 .banner-description{
     color: azure;
 }
-
+/* About styles */
+.about{
+    margin: 20px 150px;
+    padding: 170px 160px;
+    background-color: darkkhaki;
+}
+.about-title{
+    text-align: center;
+    margin-top: 50px;
+}
+.about-description{
+    text-align: center;
+    margin-bottom: 70px;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+ul li{
+    list-style: none;
+}
+/* What I do Styles */
+.section{
+    /* margin: 30px 190px;
+    background-color: blanchedalmond; */
+    margin: 20px 200px;
+    padding: 170px 160px;
+    background-color: darkkhaki;
+}
+.section-title{
+    text-align: center;
+    margin-top: 50px;
+}
+.section-description{
+    text-align: center;
+    margin: 0 170px;
+}
+.box{
+    display: flex;
+    margin: 20px 200px;
+    gap: 24px;
+}
+/* Resume styles */
+.egg{
+    margin: 20px 150px;
+    padding: 170px 160px;
+    background-color: darkkhaki;
+}
+.egg-title{
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 150px;
+    gap: 24px;
+}
+.fox{
+    padding: 0 20px;
+}
+.container-title{
+    margin-bottom: 50px;
+}
+/* Form styles */
+.form{
+    display: flex;
+    margin: 20px 150px;
+    padding: 170px 160px;
+    background-color: darkkhaki;
+    gap: 30px;
+}
+.form a{
+    text-decoration: none;
+}
+.form input, textarea{
+    margin-bottom: 10px;
+    border: 0;
+    height: 50px;
+}
