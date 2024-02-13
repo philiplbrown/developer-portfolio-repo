@@ -136,3 +136,29 @@ ul li{
     border: 0;
     height: 50px;
 }
+/* Responsive styles */
+@media screen and (max-width: 576px) {
+    nav, 
+    .banner, 
+    .skills-container, 
+    .resume-content, 
+    .about-info-container, 
+    .connect{
+        flex-direction: column;
+        gap: 20px;
+    }
+    nav ul{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .header{
+        background-image: none;
+    }
+    .about, .resume, .what-i-do, .connect{
+        padding: 10px 20px;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    
+}
